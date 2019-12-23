@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none}
+
+@import "fonts.css";
+
+body {font-family: "Inter", sans-serif;}
+
+.graficlogo {
+    width: 214px;
+    height: 104px;
+    padding: 10px;
+}
+
+.heading {
+    background: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 24% 19.1% 30% 6.5% 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container1 {
+    width: 254px;
+    height: 127px;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    background: #990033;
+}
+
+div.container1 h3 {
+    width: 240px;
+    height: 50px;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.84;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    justify-content: center;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    margin: 0 auto;
+}
+
+.search {position: absolute;
+    width: 226px;
+    height: 35px;
+    margin-top: 4.3px;
+    margin-left: 63px;
+    border: 5px solid #ffffff;}
+
+div.phone h6 {font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #990033;
+}
+
+nav {display: grid;
+    grid-template-columns: 10% 2% 10% 2% 10% 2% 10% 2% 10% 2% 10% 2% 10%;
+    border-top: 6.5px solid #990033;
+    border-bottom: 6.5px solid #990033;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+nav a {
+    color: #990033;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.circle {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    border: solid 5px #990033;
+    background-color: #990033;
+}
+
+footer {
+    background: #7b7b7b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navlink {
+    color: #990033;
+    font-size: 15px;
+}
+
+.smallnav {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 15%;
+}
+
+.topnav {
+    background: #990033;
+    width: 70%;
+    display: grid;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 15%;
+}
+
+.topnav {
+    color: white;
+}
+
+.main {
+    margin-left: 15%;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+button {
+    margin-left: 15%;
+    margin-top: 12px;
+    font-size: 15px;
+    width: 170px;
+    height: 25px;
+    font-weight: normal;
+}
+input {
+    width: 100px;
+    height: 21px;
+}
+
+select {
+    height: 21px;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+#footer-inst{
+    width: 30px;
+    height: 30px;
+}
+
+.button-inst {
+    right: -2px;
+    bottom: 60px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+}
+
+* {box-sizing: border-box;}
+
+.open-button {
+    background-color: #990033;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 17px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    width: 270px;
+    height: 50px;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+}
+
+.form-container input[type=text], .form-container input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=tel]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #990033;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0 10px 0;
+    opacity: 0.9;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-container .cancel {
+    background-color: #7b7b7b;
+}
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+

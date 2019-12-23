@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<div style="width: 100px; height: 100px; background: red" id="pseudobutton">
+    Click me!
+</div>
+</body>
+<script>
+$(document).ready(
+    $('#pseudobutton').click(function () {
+        $.post('rest.php', {
+            user: 'user1'
+        }, function (data, status) {
+            const response = JSON.parse(data);
+            alert(`user ${response.user} with id ${response.id} registered!`);
+        });
+    })
+);
+</script>
+</html>
